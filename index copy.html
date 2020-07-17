@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Test</title>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="main.js" defer></script>
+   
+    <!--
+    <style type="text/css">
+        img {
+            width: 400px;
+        }
+    </style>
+    -->
+
+    
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#aboutHeader">About Me</a></li>
+            <li><a href="#skillsHeader">Skills</a></li>
+            <li><a href="#projectHeader">Projects</a></li>
+            <li><a href="#contactHeader">Contact</a></li>
+          </ul>
+
+          <!--
+        <h3>About Me</h3> 
+        <h3>Skills</h3>
+        <h3>Project</h3>
+        -->
+
+    </nav>
+        
+            <h1 id="name">Stephanie Valenzuela</h1>
+            <div class="headshotSection">
+                <img class="headshot" src="https://drscdn.500px.org/photo/1018550134/m%3D256/v2?sig=6af01da31e4c8478c1edacd9b166d43d00615f0f2726a0ee5d3b8e464237938c" alt="Headshot">
+            </div>
+        <div class="Logos">
+            <a href="https://github.com/svalenzuela1">
+                <img class="githubLogo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="Github Logo"><a href="https://github.com/svalenzuela1"></a>
+            </a>
+
+            <a>
+                <img class="linkedinLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1024px-LinkedIn_Logo.svg.png" alt="Linkedin Logo"> <a></a>
+            </a>
+          <!--  <img src="https://drscdn.500px.org/photo/1018550134/m%3D900/v2?sig=9d50279fc38ce0d0d78063d9394e8881e8acc5c278f2526e3326abfda5688c95" alt="headshot"> -->
+        </div>
+    
+          <div class="beginning">
+
+          <h2 id="aboutHeader">About Me</h2>
+
+    <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="beginning2">
+    <h2 class="educationHeader">Education</h2>
+    <p class="education"> <a class="break">Baruch College 2020</a><br>International and Intercultural Communication</br> </p>
+    </div>
+
+<div class="beginning3">
+    <h2 class="workHeader"> Work History </h2>
+
+    <p class="work">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.</p>
+    </div>
+
+
+    <h2 id="skillsHeader">Skills</h2>
+
+    <div class="skills">
+       
+        
+    <a>
+    <img class="htmlLogo" src="https://www.logolynx.com/images/logolynx/s_4e/4e441838b106d7cb1154de0eb7501381.png">
+    </a>
+
+    <a href="http://www.w3.org/html/logo/">
+        <img class="cssLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/544px-CSS3_logo_and_wordmark.svg.png">
+    </a>
+
+    <a>
+        <img class="jsLogo" src="https://seeklogo.com/images/J/java-script-js-logo-ACF4AE5082-seeklogo.com.png">
+    </a>
+
+    <a>
+        <img class="jqueryLogo" src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png">
+    </a>
+
+    <a>
+        <img class="jsonLogo" src="https://i.pinimg.com/originals/af/e9/21/afe9219d7dc0bb2b255d82ddbf9a872e.png">
+    </a>
+
+    <a>
+        <img class="pythonLogo" src="https://fontmeme.com/images/Python-Logo.jpg">
+    </a>
+
+    </div>
+    
+
+    <div class="projectSection"> 
+       
+        <h2 id="projectHeader">Project Section</h2>
+
+
+    </div>
+
+   
+    
+    <div class="contactSection">
+
+        <footer> 
+            <h2 id="contactHeader"> Contact Me</h2>
+
+    <form id="form">
+    <h3 class="contactFormHeader">Contact Form</h3>
+    <p id="returnmessage"></p>
+    <label>Name: <span>*</span></label>
+    <input type="text" id="name" placeholder="Name"/>
+    <label>Email: <span>*</span></label>
+    <input type="text" id="email" placeholder="Email"/>
+    <label>Contact No: <span>*</span></label>
+    <input type="text" id="contact" placeholder="10 digit Mobile no."/>
+    <label>Message:</label>
+    <textarea id="message" placeholder="Message......."></textarea>
+    <input type="button" id="submit" value="Send Message"/>
+    </form>
+    
+        </footer>
+
+    </div>
+    
+
+</body>
+
+</html>
