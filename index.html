@@ -23,21 +23,26 @@
 
 </head>
 <body>
-    <nav>
+    <header>
+    <nav class ="tabletBlock">
         <ul>
-            <li><a href="#aboutHeader">About Me</a></li>
+            <li><a href="#aboutHeaderCopy">About Me</a></li>
             <li><a href="#skillsHeader">Skills</a></li>
             <li><a href="#projectHeader">Projects</a></li>
             <li><a href="#contactHeader">Contact</a></li>
-          </ul>
-
-          <!--
-        <h3>About Me</h3> 
-        <h3>Skills</h3>
-        <h3>Project</h3>
-        -->
-
+        </ul>
     </nav>
+
+        <nav class="desktopBlock">
+            <div class="burger">☰</div>
+            <div class="tabletLink"><a href="#aboutHeader">About Me</a></div>
+            <div class="tabletLink"><a href="#skillsHeader">Skills</a></div>
+            <div class="tabletLink"><a href="#projectHeader">Projects</a></div>
+            <div class="tabletLink"><a href="#contactHeader">Contact</a></div>
+           
+    </nav>
+
+</header>
         
             <h1 id="name">Stephanie Valenzuela</h1>
             <div class="headshotSection">
@@ -49,14 +54,14 @@
             </a>
 
             <a>
-                <img class="linkedinLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1024px-LinkedIn_Logo.svg.png" alt="Linkedin Logo"> <a></a>
+                <img class="linkedinLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1024px-LinkedIn_Logo.svg.png" alt="Linkedin Logo"> <a href="https://www.linkedin.com/in/stephanie-v-568577141/"></a>
             </a>
           <!--  <img src="https://drscdn.500px.org/photo/1018550134/m%3D900/v2?sig=9d50279fc38ce0d0d78063d9394e8881e8acc5c278f2526e3326abfda5688c95" alt="headshot"> -->
         </div>
-    
-          <div class="beginning">
+    <div class="hideOnDesktop">
+        <h2 id="aboutHeader">About Me</h2>
 
-          <h2 id="aboutHeader">About Me</h2>
+          <div class="beginning1">
 
     <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
@@ -66,13 +71,15 @@
         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
-    <div class="beginning2">
     <h2 class="educationHeader">Education</h2>
-    <p class="education"> <a class="break">Baruch College 2020</a><br>International and Intercultural Communication</br> </p>
+    <div class="beginning2">
+    <p class="education"> Baruch College 2020 | International and Intercultural Communication </p>
     </div>
 
-<div class="beginning3">
+
     <h2 class="workHeader"> Work History </h2>
+
+    <div class="beginning3">
 
     <p class="work">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
@@ -80,9 +87,46 @@
         irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
         deserunt mollit anim id est laborum.</p>
+   
     </div>
 
+</div>
 
+<div class="introCopy">
+
+    <div class="beginning1Copy">
+
+        <h2 id="aboutHeaderCopy">About Me</h2>
+
+<p class="aboutCopy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="beginning2Copy">
+    <h2 id="educationHeaderCopy">Education</h2>
+<p class="educationCopy"> Baruch College 2020 | International and Intercultural Communication </p>
+</div>
+
+
+
+<div class="beginning3Copy">
+
+    <h2 id="workHeaderCopy"> Work History </h2>
+
+<p class="workCopy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+  deserunt mollit anim id est laborum.</p>
+
+</div>
+
+</div>
     <h2 id="skillsHeader">Skills</h2>
 
     <div class="skills">
@@ -130,16 +174,15 @@
             <h2 id="contactHeader"> Contact Me</h2>
 
     <form id="form">
-    <h3 class="contactFormHeader">Contact Form</h3>
     <p id="returnmessage"></p>
-    <label>Name: <span>*</span></label>
-    <input type="text" id="name" placeholder="Name"/>
-    <label>Email: <span>*</span></label>
-    <input type="text" id="email" placeholder="Email"/>
-    <label>Contact No: <span>*</span></label>
-    <input type="text" id="contact" placeholder="10 digit Mobile no."/>
-    <label>Message:</label>
-    <textarea id="message" placeholder="Message......."></textarea>
+    <label class="labels">Name: <span>*</span></label>
+    <input class="contactName"type="text" placeholder="Name"/>
+    <label class="labels">Email: <span>*</span></label>
+    <input class="contactEmail"type="text" placeholder="Email"/>
+    <label class="labels">Contact No: <span>*</span></label>
+    <input class="contactPhone"type="text" placeholder="10 digit Mobile no."/>
+    <label class="labels">Message:</label>
+    <textarea class="message" placeholder="Message......."></textarea>
     <input type="button" id="submit" value="Send Message"/>
     </form>
     

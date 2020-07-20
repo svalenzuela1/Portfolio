@@ -1,4 +1,3 @@
-
 console.log($)
 
 let url = 'https://spreadsheets.google.com/feeds/list/1UUsLTR3KfDVDztVxiJ9pC61R8jDDpiVVilF-fxHzp4U/od6/public/values?alt=json'
@@ -23,14 +22,14 @@ const app = (data) => {
     console.log(data)
 
     const createProjectElement = (project) => {
-        const $div =$('<div>')//.addClass('API')
-        $div.append($('<h2>').text(project.title))//.addClass('apiTitles'))
-        $div.append($('<p>').text(project.description))//.addClass('apiTexts'))
-        $div.append($('<img>').attr('src', project.image))//.addClass('apiImages'))
-        $div.append($('<a>').attr('href', project.url))//.addClass('apiURL'))
+        const $div =$('<div>').addClass('API')
+        $div.append($('<h2>').text(project.title).addClass('apiTitles'))
+        $div.append($('<p>').text(project.description).addClass('apiTexts'))
+        $div.append($('<img>').attr('src', project.image).addClass('apiImages'))
+        $div.append($('<a>').attr('href', project.url).addClass('apiURL'))
         return $div
     }
-    //$('body').append(createProjectElement(data[0]))
+
     
     data.forEach(project =>{
 
@@ -43,36 +42,38 @@ const app = (data) => {
 
 }
 
-/*
+
 //HAMBURGER FUNCTION
-const $burger = $(“.burger”)
-const $menu = $(“.menu")
+//alex youtube tutorial
+const $hamburger = $(".burger")
+const $tabletLinks = $(".tabletLink")
 let show = false;
+
 const showMenu = (event) => {
     if (show) {
-        $right1.each(function(index){
-            $(this).css(“display”,“none”)
+        $tabletLinks.each(function(index){
+            $(this).css("display","none")
         })
         show = false
     } else {
-        $menu.each(function(index){
-            $(this).css(“display”,“block”)
+        $tabletLinks.each(function(index){
+            $(this).css("display","block")
         })
         show = true
     }
 }
-*/
+
+$hamburger.on("click", showMenu)
+
 
 /*
 //skills section
 const githubImg = "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png";
-
 //let clickOnGithub = () => {
     const $gitLogo = $('<img>')
     //const githubImg = 'https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png';
     $gitLogo.attr('src', "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png")
     $('.projects').append($gitLogo)
-
     $gitLogo.on('click', (event) => {
 location.replace("https://github.com/svalenzuela1")
     }
