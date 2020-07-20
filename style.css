@@ -1,3 +1,512 @@
+* { border: 1px solid black;}
+
+html {
+    background-color: peachpuff
+}
+
+.introCopy {
+    display: none;
+}
+
+.tabletBlock {
+    visibility: hidden;
+    display: none;
+}
+
+/*alex tutorial*/
+
+header {
+    display: flex;
+    width: 90%;
+    min-width: 10px;
+    background-color: black;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.desktopBlock {
+    min-width: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    align-content: center;
+    flex-direction: column;
+    background-color: black;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+nav div a {
+    color: white;
+    text-decoration: none;
+}
+
+.burger {
+    color: white;
+    font-size: x-large;
+}
+
+.tabletLink {
+    display: none;
+    flex-direction: column;
+    font-size: 20px;
+}
+/* end of alex tutorial */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+#name {
+   font-size: 40px;
+   text-align: center;
+   color: white;
+   background-color: black;
+}
+
+.headshotSection {
+    display: flex;
+    justify-content: center;
+}
+.headshot {
+    justify-content: center;
+    text-align: center;
+}
+
+.githubLogo, .linkedinLogo {
+    width: 40%;
+    height: 40%;
+}
+
+.Logos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.beginning1 {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutHeader {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+
+.about {
+    background-color: white;
+    border: 2px solid burlywood;
+    color: burlywood;
+    width: 400px;
+    line-height: 2; 
+}
+
+.beginning2 {
+    display: flex;
+    justify-content: center;
+}
+
+.educationHeader {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.education {
+    background-color: white;
+    border: 2px solid burlywood;
+    color: burlywood;
+    height: 200px; 
+    width: 310px;
+    line-height: 2;
+    text-align: center;
+}
+
+.beginning3{
+    display: flex;
+    justify-content: center;
+}
+
+.workHeader {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.work {
+    background-color: white;
+    border: 2px solid burlywood;
+    color: burlywood;
+    margin-bottom: 100px;
+    width: 400px;
+    line-height: 2;
+}
+
+#skillsHeader {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.htmlLogo, .cssLogo, .jsLogo, .jqueryLogo, .jsonLogo, .pythonLogo {
+    flex-direction: row;
+    height: 150px;
+    width: 150px;
+}
+
+#projectHeader{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+
+.projectSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Beginning of API Section */
+.apiImages {
+    width: 50%;
+    height: 50%;
+}
+
+.apiTitles {
+    display: flex;
+    font-size: 50px;
+    color: white; 
+    background-color: black;
+    
+}
+
+.apiTexts {
+    font-size: 25px;
+    color: white;
+    background-color: black;
+}
+/* End Of API Section */
+
+#form {
+    display: flex;
+    flex-direction: column;
+    }
+    #contactHeader{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    }
+    
+    .contactSection {
+    margin-bottom: 200px;
+    align-content: flex-end;
+    flex-direction: row;
+    
+    }
+    
+    .contactFormHeader {
+    text-align: center;
+    
+    }
+    
+    .contactName {
+        flex-direction: row;
+        height: 40px;
+        font-size: 30px;
+        }
+        
+        .contactEmail {
+        flex-direction: row;
+        height: 40px;
+        font-size: 30px;
+        }
+        
+        .message {
+        height: 200px;
+        font-size: 30px;
+        }
+        .labels {
+        font-size: 40px;
+        }    
+    
+        #submit {
+            height: 40px;      
+            font-size: 30px;  
+        }
+    
+
+
+@media only screen and (min-width: 414px) and (max-width: 799px) {
+    /* TABLET */
+    * { border: 1px solid black;}
+
+html {
+    background-color: peachpuff
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.introCopy {
+    display: none;
+}
+
+/*alex tutorial*/
+
+.desktopBlock {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    align-content: center;
+    margin: 20px;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 2;
+}
+
+nav div a {
+    color: white;
+    text-decoration: none;
+}
+
+.burger {
+    color: white;
+    font-size: x-large;
+}
+
+.tabletLink {
+    display: none;
+    flex-direction: column;
+    font-size: 30px;
+}
+/* end of alex tutorial */
+
+.tabletBlock {
+    visibility: hidden;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#name {
+   font-size: 50px;
+   text-align: center;
+   color: white;
+   background-color: black;
+}
+
+.headshotSection {
+    display: flex;
+    justify-content: center;
+}
+.headshot {
+    justify-content: center;
+    text-align: center;
+}
+
+.githubLogo, .linkedinLogo {
+    width: 40%;
+    height: 40%;
+}
+
+.Logos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.beginning1 {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutHeader {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+
+.about {
+    background-color: white;
+    border: 2px solid burlywood;
+    color: burlywood;
+    width: 400px;
+    line-height: 2; 
+}
+
+.beginning2 {
+    display: flex;
+    justify-content: center;
+}
+
+.educationHeader {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+
+.education {
+    background-color: white;
+    border: 2px solid burlywood;
+    color: burlywood;
+    height: 200px; 
+    width: 310px;
+    line-height: 2;
+    text-align: center;
+}
+
+.beginning3{
+    display: flex;
+    justify-content: center;
+}
+
+.workHeader {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+
+.work {
+    background-color: white;
+    border: 2px solid burlywood;
+    color: burlywood;
+    margin-bottom: 100px;
+    width: 400px;
+    line-height: 2;
+}
+
+#skillsHeader {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.htmlLogo, .cssLogo, .jsLogo, .jqueryLogo, .jsonLogo, .pythonLogo {
+    flex-direction: row;
+    height: 150px;
+    width: 150px;
+}
+
+#projectHeader{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+/* Beginning of API Section */
+.apiImages {
+    width: 100%;
+    height: 100%;
+}
+
+.apiTitles {
+    font-size: 50px;
+}
+
+.apiTexts {
+    font-size: 40px;
+}
+
+.apiURL{
+    display: show;
+    color: pink;
+}
+/* End Of API Section */
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.projectSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    }
+    #contactHeader{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    }
+    
+    .contactSection {
+    margin-bottom: 200px;
+    align-content: flex-end;
+    flex-direction: row;
+    
+    }
+    
+
+    .contactFormHeader {
+    text-align: center;
+    
+    }
+    
+    .contactName {
+    flex-direction: row;
+    height: 40px;
+    font-size: 30px;
+    }
+    
+    .contactEmail {
+    flex-direction: row;
+    height: 40px;
+    font-size: 30px;
+    }
+    
+    .message {
+    height: 200px;
+    font-size: 30px;
+    }
+
+    .labels {
+    font-size: 40px;
+    }    
+
+    #submit {
+        height: 40px;        
+    }
+}
+
+
 @media only screen and (min-width: 800px) {
     /*DESKTOP*/
 
@@ -14,12 +523,20 @@ display: none;
 
 header {
 display: flex;
-width: 90%;
-min-width: 320px;
-background-color: black;
+visibility: visible;
 justify-content: space-between;
-margin: 20px auto;
-padding: 5px;
+
+}
+
+.tabletBlock /*header*/{
+    display: flex;
+    width: 80%;
+    min-width: 450px;
+    background-color: black;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 5px;
+    visibility: visible;
 }
 
 nav{
@@ -27,23 +544,28 @@ box-sizing: content-box;
 background-color: black;
 width: 100vw; 
 height: 80px;
-
+display: flex;
 }
+
 ul{
 display: flex;
 font-size: larger;
-justify-content: space-around;
+justify-content: space-between;
+color: white;
 
 }
 li {
 list-style-type: none;
 font-size: 35px;
+color: white;
+justify-content: space-evenly;
 }
 
-a{
+.desktopLink{
 text-decoration: none;
 color: white;
 }
+
 #name {
 font-size: 40px;
 text-align: center;
@@ -62,14 +584,6 @@ text-align: center;
 width: 20%;
 height: 20%;
 }
-/*
-.apiImages {
-width: 20%;
-height: 20%;
-flex-direction: flex-end;
-display: flex
-}
-*/
 
 .hideOnDesktop{
 visibility: hidden;
@@ -81,6 +595,7 @@ display: flex;
 flex-direction: column;
 text-align: center;
 }
+
 /* beginning of grid */
 .introCopy {
 display: grid;
@@ -91,10 +606,7 @@ padding: 10px;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr 4fr;
 height: 500px;
-/*
-width: 90%;
-margin: auto;
-*/
+
 }
 
 .beginning1Copy {
@@ -104,14 +616,13 @@ background-color: black;
 height: 220px;
 width: 100%;
 text-align: center;
-/*
-grid-row-start: auto;
-*/
 margin-bottom: 20px;
 }
+
 #aboutHeaderCopy, #workHeaderCopy, #educationHeaderCopy {
 font-size: 30px;
 }
+
 .beginning2Copy {
 grid-area: beginning2Copy;
 color: white;
@@ -211,567 +722,71 @@ width: 150px;
 text-align: center;
 }
 
-/*
-.API {
-display: flex;
-justify-content: center;
-flex-direction: column;
-}
-.apiImages {
-justify-content: center;
-flex-direction: column;
-width: 20%;
-height: 20%;
-}
-*/
-
 img {
 width: 20%;
 height: 20%;
 }
 
 body {
-display: flex;
-flex-direction: column;
-align-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
 .projectSection {
-display: flex;
-flex-direction: column;
-justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
 #form {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #contactHeader{
-text-align: center;
+    text-align: center;
 }
 
 .contactSection {
-margin-bottom: 200px;
-align-content: flex-end;
-flex-direction: row;
+    margin-bottom: 200px;
+    align-content: flex-end;
+    flex-direction: row;
 }
 
 .contactFormHeader {
-text-align: center; 
+    text-align: center; 
 }
 
 .contactName {
-flex-direction: row;
-height: 40px;
+    flex-direction: row;
+    height: 40px;
+    font-size: 30px;
 }
-
+    
 .contactEmail {
-flex-direction: row;
-height: 40px;
+    flex-direction: row;
+    height: 40px;
+    font-size: 30px;
 }
-
-.contactPhone {
-flex-direction: row;
-height: 40px;
+    
+.contactText {
+    font-size: 25px;
+     color: white;
+     background-color: black;
 }
-
+    
 .message {
-height: 200px;
+    height: 200px;
+    font-size: 30px;
 }
 
 .labels {
-font-size: 30px;
-}
-
-}
-
-@media only screen and (max-width: 800px) {
-/* TABLET */
-* { border: 1px solid black;}
-
-html {
-background-color: peachpuff
-}
-
-body {
-display: flex;
-flex-direction: column;
-align-content: space-between;
-}
-
-.introCopy {
-display: none;
-}
-
-/*alex tutorial*/
-header {
-display: flex;
-width: 80%;
-min-width: 450px;
-background-color: black;
-justify-content: space-between;
-margin: 20px auto;
-padding: 5px;
-}
-
-/*
-.logo {
-font-size: larger;
-color: white; 
-margin: 20px;
-font-family: 
-}
-*/
-
-.desktopBlock {
-display: flex;
-justify-content: space-around;
-width: 40%;
-align-content: center;
-margin: 20px;
-flex-direction: column;
-font-size: 20px;
-line-height: 2;
-}
-
-nav div a {
-color: white;
-text-decoration: none;
-}
-
-.burger {
-color: white;
-font-size: x-large;
-}
-
-.tabletLink {
-display: none;
-flex-direction: column;
-}
-/* end of alex tutorial */
-
-.tabletBlock {
-visibility: hidden;
-display: none;
-}
-
-a {
-text-decoration: none;
-color: white;
-}
-
-#name {
-font-size: 40px;
-text-align: center;
-}
-
-.headshotSection {
-display: flex;
-justify-content: center;
-}
-.headshot {
-justify-content: center;
-text-align: center;
-}
-
-.githubLogo, .linkedinLogo {
-width: 40%;
-height: 40%;
-}
-
-.Logos {
-display: flex;
-flex-direction: column;
-text-align: center;
-}
-
-.beginning1 {
-display: flex;
-justify-content: center;
-}
-
-#aboutHeader {
-text-align: center;
-font-size: 16;
-}
-
-.about {
-background-color: white;
-border: 2px solid burlywood;
-color: burlywood;
-margin-bottom: 100px;
-width: 400px;
-line-height: 2; 
-}
-
-.beginning2 {
-display: flex;
-justify-content: center;
-}
-
-.educationHeader {
-font-size: 25px;
-text-align: center;
-}
-
-.education {
-background-color: white;
-border: 2px solid burlywood;
-color: burlywood;
-height: 200px; 
-width: 310px;
-line-height: 2;
-text-align: center;
-}
-
-.beginning3{
-display: flex;
-justify-content: center;
-}
-
-.workHeader {
-font-size: 25px;
-text-align: center;
-}
-
-.work {
-background-color: white;
-border: 2px solid burlywood;
-color: burlywood;
-margin-bottom: 100px;
-width: 400px;
-line-height: 2;
-}
-
-#skillsHeader {
-text-align: center;
-}
-
-.skills {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-
-.htmlLogo, .cssLogo, .jsLogo, .jqueryLogo, .jsonLogo, .pythonLogo {
-flex-direction: row;
-height: 150px;
-width: 150px;
-}
-
-#projectHeader{
-text-align: center;
-}
-/* Beginning of API Section */
-.apiImages {
-width: 50%;
-height: 50%;
-}
-
-.apiTitles {
-font-size: 50px;
-}
-
-.apiTexts {
-font-size: 40px;
-}
-/* End Of API Section */
-body {
-display: flex;
-flex-direction: column;
-align-content: space-between;
-}
-.projectSection {
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-
-
-#form {
-display: flex;
-flex-direction: column;
-}
-#contactHeader{
-text-align: center;
-}
-
-.contactSection {
-margin-bottom: 200px;
-align-content: flex-end;
-flex-direction: row;
-
-}
-
-.contactFormHeader {
-text-align: center;
-
-}
-
-.contactName {
-flex-direction: row;
-height: 40px;
-}
-
-.contactEmail {
-flex-direction: row;
-height: 40px;
-}
-
-.contactPhone {
-flex-direction: row;
-height: 40px;
-}
-
-.message {
-height: 200px;
-}
-.labels {
-font-size: 30px;
+    font-size: 40px;
 }    
 
-}
-
-@media only screen and (max-width: 450px) {
-* { border: 1px solid black;}
-
-html {
-background-color: peachpuff
-}
-
-.introCopy {
-display: none;
-}
-
-.tabletBlock {
-visibility: hidden;
-display: none;
-}
-
-/*alex tutorial*/
-header {
-display: flex;
-width: 90%;
-min-width: 10px;
-background-color: black;
-justify-content: space-between;
-margin: 20px auto;
-padding: 5px;
-}
-
-.desktopBlock {
-display: flex;
-justify-content: space-around;
-width: 40%;
-align-content: center;
-margin: 20px;
-flex-direction: column;
-}
-
-nav div a {
-color: white;
-text-decoration: none;
-}
-
-.burger {
-color: white;
-font-size: x-large;
-}
-
-.tabletLink {
-display: none;
-flex-direction: column;
-font-size: 20px;
-}
-/* end of alex tutorial */
-
-a{
-text-decoration: none;
-color: white;
-}
-#name {
-font-size: 40px;
-text-align: center;
-color: white;
-background-color: black;
-}
-
-.headshotSection {
-display: flex;
-justify-content: center;
-}
-.headshot {
-justify-content: center;
-text-align: center;
-}
-
-.githubLogo, .linkedinLogo {
-width: 40%;
-height: 40%;
-}
-
-.Logos {
-display: flex;
-flex-direction: column;
-text-align: center;
-}
-
-.beginning1 {
-display: flex;
-justify-content: center;
-}
-
-#aboutHeader {
-text-align: center;
-font-size: 30;
-color: white;
-background-color: black;
-}
-
-.about {
-background-color: white;
-border: 2px solid burlywood;
-color: burlywood;
-width: 400px;
-line-height: 2; 
-}
-
-.beginning2 {
-display: flex;
-justify-content: center;
-}
-
-.educationHeader {
-font-size: 30px;
-text-align: center;
-color: white;
-background-color: black;
-}
-
-.education {
-background-color: white;
-border: 2px solid burlywood;
-color: burlywood;
-height: 200px; 
-width: 310px;
-line-height: 2;
-text-align: center;
-}
-
-.beginning3{
-display: flex;
-justify-content: center;
-}
-
-.workHeader {
-font-size: 25px;
-text-align: center;
-color: white;
-background-color: black;
-}
-
-.work {
-background-color: white;
-border: 2px solid burlywood;
-color: burlywood;
-margin-bottom: 100px;
-width: 400px;
-line-height: 2;
-}
-
-#skillsHeader {
-text-align: center;
-font-size: 30px;
-color: white;
-background-color: black;
-}
-
-.skills {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-background-color: black;
-}
-
-.htmlLogo, .cssLogo, .jsLogo, .jqueryLogo, .jsonLogo, .pythonLogo {
-flex-direction: row;
-height: 150px;
-width: 150px;
-}
-
-#projectHeader{
-text-align: center;
-font-size: 30px;
-color: white;
-background-color: black;
-}
-
-.projectSection {
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-
-/* Beginning of API Section */
-.apiImages {
-width: 100%;
-height: 100%;
-}
-
-.apiTitles {
-font-size: 50px;
-color: white; 
-background-color: black;
-}
-
-.apiTexts {
-font-size: 25px;
-color: white;
-background-color: black;
-}
-/* End Of API Section */
-
-#form {
-display: flex;
-flex-direction: column;
-}
-#contactHeader{
-text-align: center;
-}
-
-.contactSection {
-margin-bottom: 200px;
-align-content: flex-end;
-flex-direction: row;
-
-}
-
-.contactFormHeader {
-text-align: center;
-
-}
-
-.contactName {
-flex-direction: row;
-height: 40px;
-}
-
-.contactEmail {
-flex-direction: row;
-height: 40px;
-}
-
-.contactPhone {
-flex-direction: row;
-height: 40px;
-}
-
-.message {
-height: 200px;
-}
-.labels {
-font-size: 30px;
-}
+#submit {
+        height: 40px;        
+}  
 
 }
