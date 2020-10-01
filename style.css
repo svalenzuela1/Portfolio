@@ -68,6 +68,15 @@ html {
 text-align: center;
 }
 
+.projectSection{
+    /* display: grid; 
+    grid-template-areas: 
+    ".API .API .API";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr; */
+
+}
+
 .API{
     display:flex;
     flex-direction: column;

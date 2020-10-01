@@ -30,7 +30,7 @@ const app = (data) => {
         $div.append($('<p>').text(project.description).addClass('apiTexts'))
         $div.append($('<img>').attr('src', project.image).addClass('apiImages'))
         $div.append($('<a>').attr('href', project.url).text('LIVE LINK').addClass('apiURL'))
-        $div.append($('<a>').attr('href', project.github).text('GITHUB LINK').addClass('githubURL'))
+        $div.append($('<a>').attr('href', project.github).text('THE CODE').addClass('githubURL'))
 
 
         //$div.append($('<a>').attr('href', project.live).addClass('liveLink'))
