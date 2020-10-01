@@ -12,7 +12,9 @@ let projects = data.feed.entry.map( entry => {
        title: entry.gsx$title.$t,
        image: entry.gsx$image.$t,
        description: entry.gsx$description.$t,
-       url: entry.gsx$url.$t
+       url: entry.gsx$url.$t,
+       github: entry.gsx$github.$t
+       //live: entry.gsx$url.$t
         }
     })
     app(projects)
@@ -27,7 +29,11 @@ const app = (data) => {
         $div.append($('<h2>').text(project.title).addClass('apiTitles'))
         $div.append($('<p>').text(project.description).addClass('apiTexts'))
         $div.append($('<img>').attr('src', project.image).addClass('apiImages'))
-        $div.append($('<a>').attr('href', project.url).addClass('apiURL'))
+        $div.append($('<a>').attr('href', project.url).text('LIVE LINK').addClass('apiURL'))
+        $div.append($('<a>').attr('href', project.github).text('GITHUB LINK').addClass('githubURL'))
+
+
+        //$div.append($('<a>').attr('href', project.live).addClass('liveLink'))
         return $div
     }
 
@@ -44,8 +50,7 @@ const app = (data) => {
 }
 
 
-//HAMBURGER FUNCTION
-//alex youtube tutorial
+
 const $hamburger = $(".burger")
 const $tabletLinks = $(".tabletLink")
 let show = false;
