@@ -60,12 +60,38 @@ html {
     text-align: center;
     width: 30%;
     margin-bottom: 20px;
+    line-height: 30px;
 }
+
+/* SKILLS SECTION */
+
+.skillsHeader {
+    text-align: center; 
+    font-size: 40px;
+
+}
+
+.skillSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.skillsLogo{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+/* END OF SKILLS SECTION */
 
 
 /* PROJECT SECTION */
 #projectHeader {
 text-align: center;
+font-size: 40px;
+
 }
 
 .projectSection{
@@ -82,11 +108,16 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    margin-bottom: 50px;
 }
 
 .apiImages {
     height: 50%;
     width: 30%;
+}
+
+.apiImages:nth-of-type(4){
+    height: 10%;
 }
 
 .apiURL, .githubURL {
@@ -99,10 +130,74 @@ text-align: center;
 }
 
 .apiURL:hover, .githubURL:hover {
-    font-size: 40px;
+    font-size: 30px;
 }
 /* END OF PROJECT SECTION */
 
+/* CONTACT SECTION */
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: medium;
+}
+    
+#contactHeader{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+    
+.contactSection {
+    margin-top: 80px;
+    margin-bottom: 200px;
+    align-content: flex-end;
+    flex-direction: row;
+    
+}
+    
+.contactFormHeader {
+    text-align: center;
+    font-size: medium;
+    
+}
+    
+.contactText {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
 
+.contactName {
+    flex-direction: row;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    }
+        
+.contactEmail {
+    flex-direction: row;
+    height: 40px;
+    font-size: 30px;
+}
+        
+.message {
+    height: 200px;
+    font-size: 30px;
+    width: 60%;
+}
+        
+.labels {
+    font-size: 40px;
+}    
+    
+#submit {
 
-
+    height: 40px;      
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: azure;
+    color: black
+}
+    
+/* END OF CONTACT SECTION */

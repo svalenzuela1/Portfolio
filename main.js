@@ -51,6 +51,7 @@ const app = (data) => {
 
 
 
+//Mobile Hamburger
 const $hamburger = $(".burger")
 const $tabletLinks = $(".tabletLink")
 let show = false;
