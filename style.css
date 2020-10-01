@@ -8,6 +8,13 @@ html {
     display: flex;
    justify-content: flex-end;
 }
+
+.desktopBlock{
+    visibility: hidden;
+
+}
+
+
 /* nav {
     background-color: grey; 
     height: 50%;
@@ -111,6 +118,10 @@ font-size: 40px;
     margin-bottom: 50px;
 }
 
+.apiText{
+text-align: center;
+}
+
 .apiImages {
     height: 50%;
     width: 30%;
@@ -201,3 +212,115 @@ font-size: 40px;
 }
     
 /* END OF CONTACT SECTION */
+
+
+
+@media only screen and (max-width: 1100px) {
+
+    .nav{
+        visibility: hidden;
+    }
+
+    .desktopBlock{
+        visibility: visible;
+    }
+
+    .tabletLink{
+        text-decoration: none;
+        color: azure;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .burger{
+        text-align: center;
+        font-size: x-large;
+    }
+    .li{
+        display: inline;
+        padding: 20px;
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .projectSection{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .API{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    .name {
+        font-size: 20px;
+        color: rgb(105, 221, 221);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 50px;
+        margin-top: 1px;
+    }
+
+    .position {
+        color: azure;
+        font-size: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #contactHeader{
+        text-align: center;
+    }
+    
+    .contactSection {
+        margin-bottom: 200px;
+        align-content: flex-end;
+        flex-direction: row;
+    }
+    
+    .contactFormHeader {
+        text-align: center; 
+        font-size: 15px;
+    }
+
+    .contactName {
+        flex-direction: row;
+        height: 40px;
+        font-size: 15px;
+    }
+        
+    .contactEmail {
+        flex-direction: row;
+        height: 40px;
+        font-size: 15px;
+    }
+        
+    .contactText {
+        font-size: 15px;
+         color: white;
+            
+        
+    }
+        
+    .message {
+        height: 200px;
+        font-size: 15px;
+    }
+    
+    .labels {
+        font-size: 20px;
+    }    
+    
+    #submit {
+        height: 40px;        
+    }  
+}
