@@ -62,22 +62,36 @@ html {
     margin-bottom: 20px;
 }
 
-/* .API{
-    display:flex;
-    flex-direction: row;
-} */
 
 /* PROJECT SECTION */
+#projectHeader {
+text-align: center;
+}
+
+.API{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
 .apiImages {
     height: 10%;
     width: 20%;
 }
 
-.apiURL {
-    font-size: 10px;
+.apiURL, .githubURL {
+    font-size: 20px;
     color: white;
+    border: 2px solid azure;
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
 }
 
+.apiURL:hover, .githubURL:hover {
+    font-size: 40px;
+}
 /* END OF PROJECT SECTION */
 
 
