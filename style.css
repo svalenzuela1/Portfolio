@@ -69,11 +69,11 @@ text-align: center;
 }
 
 .projectSection{
-    /* display: grid; 
+    display: grid; 
     grid-template-areas: 
     ".API .API .API";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 4fr; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
 
 }
 
@@ -85,8 +85,8 @@ text-align: center;
 }
 
 .apiImages {
-    height: 10%;
-    width: 20%;
+    height: 50%;
+    width: 30%;
 }
 
 .apiURL, .githubURL {
