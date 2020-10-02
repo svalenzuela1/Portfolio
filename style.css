@@ -14,6 +14,16 @@ html {
 
 }
 
+/* ICONS */
+.logo{
+    height: 10%;
+    width: 10%;
+    background-color: white;
+}
+
+.connect{
+    margin-bottom: 50px;
+}
 
 /* nav {
     background-color: grey; 
