@@ -54,9 +54,9 @@ html {
 }
 
 .portfolioimg {
-    height: 300px;
-    width: 200px;
-    border-radius: 40%;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
     overflow: hidden;
     margin-bottom: 30px;
 }
