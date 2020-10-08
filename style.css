@@ -48,7 +48,7 @@ html {
 .name {
     font-size: 35px;
     color: rgb(105, 221, 221);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 50px;
     margin-top: 1px;
 }
@@ -85,7 +85,7 @@ html {
 .skillsHeader {
     text-align: center; 
     font-size: 40px;
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .skillSection{
@@ -106,9 +106,14 @@ html {
 
 /* PROJECT SECTION */
 #projectHeader {
-text-align: center;
-font-size: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+}
+
+.apiTitles{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .projectSection{
@@ -167,6 +172,7 @@ text-align: center;
     text-align: center;
     font-size: 40px;
     color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
     
 .contactSection {
@@ -271,7 +277,7 @@ text-align: center;
     .name {
         font-size: 20px;
         color: rgb(105, 221, 221);
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin-bottom: 50px;
         margin-top: 1px;
     }
