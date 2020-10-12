@@ -1,5 +1,4 @@
 
-console.log($)
 
 let url = 'https://spreadsheets.google.com/feeds/list/1UUsLTR3KfDVDztVxiJ9pC61R8jDDpiVVilF-fxHzp4U/od6/public/values?alt=json'
 
